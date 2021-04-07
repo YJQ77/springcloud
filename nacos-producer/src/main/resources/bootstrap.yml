@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: de4c0e91-4285-4d3e-811f-cc955467d121
+        group: CLOUDALI
+        file-extension: yml
+        server-addr: 172.81.250.30:8848
+  application:
+    name: producer
+  profiles:
+    active: prod
+
+
