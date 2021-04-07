@@ -1,1 +1,12 @@
-
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: 13307035-b4fa-4980-81c7-6f5b2748832f
+        group: CLOUDALI
+        file-extension: yml
+        server-addr: 172.81.250.30:8848
+  application:
+    name: gateway
+  profiles:
+    active: qa

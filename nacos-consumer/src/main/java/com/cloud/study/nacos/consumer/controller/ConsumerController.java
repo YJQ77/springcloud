@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/4/6 20:39
  */
 @RestController
-@RequestMapping(value = "/consumer")
+@RequestMapping(value = "/hello")
 public class ConsumerController {
 
     @Autowired
