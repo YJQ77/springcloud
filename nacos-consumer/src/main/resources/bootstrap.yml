@@ -2,12 +2,12 @@ spring:
   cloud:
     nacos:
       config:
-        namespace: de4c0e91-4285-4d3e-811f-cc955467d121
+        namespace: 9c42eedf-c2d0-4136-8353-c974f2c2462d
         group: CLOUDALI
         file-extension: yml
         server-addr: 172.81.250.30:8848
   application:
-    name: producer
+    name: consumer
   profiles:
     active: qa
 
