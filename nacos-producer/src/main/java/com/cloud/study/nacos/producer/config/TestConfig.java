@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @RefreshScope
-
 public class TestConfig {
 
     @Value("${cloud.test.name:}")
